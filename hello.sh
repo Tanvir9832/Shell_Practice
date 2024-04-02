@@ -28,14 +28,35 @@
 # echo My name is $name1 $name3
 
 
-read -p 'username : ' username
+# read -p 'username : ' username
 
-echo "username" : $username
+# echo "username" : $username
 
 
-read -sp 'password : ' pass
+# read -sp 'password : ' pass
 
-echo 'password : ' $pass
+# echo 'password : ' $pass
+
+# echo $0 $1 $2 $3 '> echo $1 $2 $3'
+
+# IF ELSE SATEMENT
+#  if (condition)
+#  then 
+#     statement
+#  fi
+
+
+
+
+count=10
+
+if [ $count -eq 9 ]
+then 
+    echo "false"
+else
+    echo "true"
+fi
+
 
 
 
